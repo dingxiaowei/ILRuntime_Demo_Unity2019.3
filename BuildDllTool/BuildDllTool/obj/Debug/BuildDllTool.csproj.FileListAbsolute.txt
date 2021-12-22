@@ -10,3 +10,9 @@ D:\Study\GitHub\ILRuntimeDemo\BuildDllTool\BuildDllTool\bin\Debug\BuildDllTool.p
 D:\Study\GitHub\ILRuntimeDemo\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.csprojAssemblyReference.cache
 D:\Study\GitHub\ILRuntimeDemo\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.exe
 D:\Study\GitHub\ILRuntimeDemo\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.pdb
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\bin\Debug\BuildDllTool.exe.config
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\bin\Debug\BuildDllTool.exe
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\bin\Debug\BuildDllTool.pdb
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.csprojAssemblyReference.cache
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.exe
+D:\Study\GitHub\ILRuntime_Demo_Unity2019.3\BuildDllTool\BuildDllTool\obj\Debug\BuildDllTool.pdb

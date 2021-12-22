@@ -9,7 +9,7 @@ using Debug = UnityEngine.Debug;
 
 namespace EditorTool
 {
-	public class ILRuntimeWindow : EditorWindow
+    public class ILRuntimeWindow : EditorWindow
     {
         Vector2 mLogScroll;
         string mLogs = string.Empty;
@@ -52,6 +52,17 @@ namespace EditorTool
             GUILayout.EndVertical();
         }
 
+        string ReplaseStr(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+            {
+                Debug.LogError("传入的要转换的字符换为空");
+                return null;
+            }
+            else
+                return str.Replace(" ", "--");
+        }
+
         public void BuildDLL(string codeSource, string export, Action compileFinishedCallback = null, Action<string> outPutReceivedEvent = null)
         {
             string exePath = Environment.CurrentDirectory + "/Tools/BuildHotfixDll/BuildDllTool.exe";
@@ -84,6 +95,9 @@ namespace EditorTool
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.CreateNoWindow = true;
             p.StartInfo.FileName = exePath;
+
+            dllPath = ReplaseStr(dllPath);
+
             p.StartInfo.Arguments = string.Format("{0} {1} {2} {3} {4}", codeSource, export, dllPath, compilerDirectoryPath, define);
             p.Exited += (sender, e) =>
             {
