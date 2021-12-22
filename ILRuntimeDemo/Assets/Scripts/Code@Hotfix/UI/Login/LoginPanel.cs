@@ -30,6 +30,7 @@ namespace Hotfix.UI
 
         void OnClick()
         {
+            UnityEngine.Debug.Log("点击登录");
             UIHelper.ShowPanel<MainPanel>(null, m_userNameInput.text);
         }
     }
